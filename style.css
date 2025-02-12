@@ -1,0 +1,137 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  padding-block: 6rem;
+  padding-inline: 1rem;
+  background-color: slategrey;
+}
+
+.box {
+  width: 200px;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  background-color: rgb(158, 24, 158);
+  clip-path: path(
+    "M 10,50 L 90,50 A 10,10 0,0,0 100,40 L 100,10 A 10,10 0,0,1 110,0 L 190,0 A 10,10 0,0,1 200,10 L 200,190 A 10,10 0,0,1 190,200 L 10,200 A 10,10 0,0,1 0,190 L 0,60 A 10,10 0,0,1 10,50 Z"
+  );
+}
+.box h1 {
+  margin-block-start: 3rem;
+  font-size: 1.5rem;
+}
+.box p {
+  width: 90%;
+  margin-inline: auto;
+  font-size: 0.95rem;
+}
+.box button {
+  padding: 0.35rem 0.75rem;
+  border-radius: 0.5rem;
+  background-color: white;
+  border: 1px solid transparent;
+  font-weight: bold;
+  color: rgb(158, 24, 158);
+  cursor: pointer;
+}
+
+.box2 {
+  width: 350px;
+  height: 350px;
+  background-color: rgb(255, 99, 71);
+  clip-path: path(
+    "M 35,50 C 70,35, 105,35, 140,50 C 175,65, 210,65, 245,50 C 280,35, 315,35, 315,70 L 315,280 C 315,315, 280,315, 245,300 C 210,285, 175,285, 140,300 C 105,315, 70,315, 35,300 Z"
+  );
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  padding: 20px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.box2 h1 {
+  text-align: center;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+.box2 p {
+  width: 90%;
+  margin-inline: auto;
+  font-size: 0.95rem;
+  margin-block-end: 0.5rem;
+}
+.box2 button {
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  background-color: white;
+  border: 1px solid transparent;
+  font-weight: bold;
+  color: rgb(255, 99, 71);
+  cursor: pointer;
+}
+
+.box3 {
+  width: 300px;
+  height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  background-color: saddlebrown;
+  clip-path: path(
+    "M 15,40 L 85,40 A 15,15 0,0,0 100,30 L 100,20 A 15,15 0,0,1 115,5 L 275,5 A 15,15 0,0,1 290,20 L 290,260 A 15,15 0,0,1 275,275 L 100,275 A 15,15 0,0,1 85,260 L 15,260 A 15,15 0,0,1 0,245 L 0,60 A 15,15 0,0,1 15,40 Z"
+  );
+}
+.box3 h1 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+
+.box4 {
+  width: 350px;
+  height: 350px;
+  background-color: rgb(70, 130, 180);
+  clip-path: path(
+    "M 20,30 C 40,10, 80,10, 100,30 C 130,50, 170,50, 200,30 C 230,10, 270,10, 290,30 L 290,320 C 270,340, 230,340, 200,320 C 170,300, 130,300, 100,320 C 80,340, 40,340, 20,320 Z"
+  );
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 1rem;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  padding: 20px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.box4 button {
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  background-color: white;
+  border: 1px solid transparent;
+  font-weight: bold;
+  color: rgb(70, 130, 180);
+  cursor: pointer;
+}
