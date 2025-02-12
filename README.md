@@ -4,7 +4,7 @@
 
 This project is a **pure CSS** implementation where I explore the usage of the **`clip-path`** property to create various **modern** and **innovative shapes** that can be utilized on websites. The goal of the project is to demonstrate how versatile and dynamic the **`clip-path`** property can be in web design, allowing for unique, attention-grabbing visual elements.
 
-![Project Showcase](C:\Users\mmari\OneDrive\Slike\Snimke zaslona\Snimka zaslona 2025-02-12 120530.png)
+![Project Showcase](project.png)
 
 ## Features
 
